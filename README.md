@@ -17,7 +17,7 @@ The anonymization process ensures that sensitive information like server names a
 
 ## Repository Structure
 
-- `collectoranonymizer.py`: The main Python script containing both anonymization and de-anonymization functions.
+- `collector-anonymizer.py`: The main Python script containing both anonymization and de-anonymization functions.
 
 ## Usage Instructions
 
@@ -38,7 +38,7 @@ pip install openpyxl
 To anonymize an Excel file:
 
 ```bash
-python collectoranonymizer.py an "path/to/your/excel_file.xlsx"
+python collector-anonymizer.py an "path/to/your/excel_file.xlsx"
 ```
 
 This will create a new file named "Inventory_And_Usage_Workbook Anonymized.xlsx" in the current directory.
@@ -48,7 +48,7 @@ This will create a new file named "Inventory_And_Usage_Workbook Anonymized.xlsx"
 To de-anonymize a Quick Insights (QI) zip file:
 
 ```bash
-python collectoranonymizer.py de "path/to/original_excel_file.xlsx" "path/to/qi_file.zip"
+python collector-anonymizer.py de "path/to/original_excel_file.xlsx" "path/to/qi_file.zip"
 ```
 
 This will create new de-anonymized files with the prefix "deanonymized_" for each file in the QI zip.
@@ -57,12 +57,12 @@ This will create new de-anonymized files with the prefix "deanonymized_" for eac
 
 1. Preparing data for external analysis:
    ```bash
-   python collectoranonymizer.py an "Inventory_Data.xlsx"
+   python collector-anonymizer.py an "Inventory_Data.xlsx"
    ```
 
 2. Restoring original identifiers after analysis:
    ```bash
-   python collectoranonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
+   python collector-anonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
    ```
 
 ### Troubleshooting
@@ -95,7 +95,6 @@ The data flow in this application follows these steps:
 
 ## Read More
 https://aws.amazon.com/blogs/mt/anonymizing-sensitive-data-of-the-migration-evaluators-export-file/
-
 
 ## Security
 

@@ -50,11 +50,7 @@ This will create a new file named "Inventory_And_Usage_Workbook Anonymized.xlsx"
 To de-anonymize a Quick Insights (QI) zip file:
 
 ```bash
-<<<<<<< HEAD
 python collector-anonymizer.py de "path/to/original_excel_file.xlsx" "path/to/qi_file.zip"
-=======
-python collectoranonymizer.py de "path/to/original_excel_file.xlsx" "path/to/qi_file.zip"
->>>>>>> 9b2484f (Initial commit)
 ```
 
 This will create new de-anonymized files with the prefix "deanonymized_" for each file in the QI zip.
@@ -62,21 +58,13 @@ This will create new de-anonymized files with the prefix "deanonymized_" for eac
 ### Common Use Cases
 
 1. Preparing data for external analysis:
-   ```bash
-<<<<<<< HEAD
+ ```bash
    python collector-anonymizer.py an "Inventory_Data.xlsx"
-=======
-   python collectoranonymizer.py an "Inventory_Data.xlsx"
->>>>>>> 9b2484f (Initial commit)
-   ```
+  ```
 
-2. Restoring original identifiers after analysis:
+3. Restoring original identifiers after analysis:
    ```bash
-<<<<<<< HEAD
    python collector-anonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
-=======
-   python collectoranonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
->>>>>>> 9b2484f (Initial commit)
    ```
 
 ### Troubleshooting
@@ -110,7 +98,6 @@ The data flow in this application follows these steps:
 ## Read More
 https://aws.amazon.com/blogs/mt/anonymizing-sensitive-data-of-the-migration-evaluators-export-file/
 
-<<<<<<< HEAD
 ## Security
 
 See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.

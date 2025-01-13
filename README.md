@@ -63,9 +63,9 @@ This will create new de-anonymized files with the prefix "deanonymized_" for eac
   ```
 
 3. Restoring original identifiers after analysis:
-   ```bash
+```bash
    python collector-anonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
-   ```
+ ```
 
 ### Troubleshooting
 
@@ -106,5 +106,4 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
-=======
->>>>>>> 9b2484f (Initial commit)
+

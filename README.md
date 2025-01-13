@@ -59,12 +59,12 @@ This will create new de-anonymized files with the prefix "deanonymized_" for eac
 
 1. Preparing data for external analysis:
  ```bash
-   python collector-anonymizer.py an "Inventory_Data.xlsx"
+python collector-anonymizer.py an "Inventory_Data.xlsx"
   ```
 
 3. Restoring original identifiers after analysis:
 ```bash
-   python collector-anonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
+python collector-anonymizer.py de "Inventory_Data.xlsx" "QuickInsights_Results.zip"
  ```
 
 ### Troubleshooting

@@ -17,11 +17,7 @@ The anonymization process ensures that sensitive information like server names a
 
 ## Repository Structure
 
-<<<<<<< HEAD
 - `collector-anonymizer.py`: The main Python script containing both anonymization and de-anonymization functions.
-=======
-- `collectoranonymizer.py`: The main Python script containing both anonymization and de-anonymization functions.
->>>>>>> 9b2484f (Initial commit)
 
 ## Usage Instructions
 
@@ -42,11 +38,9 @@ pip install openpyxl
 To anonymize an Excel file:
 
 ```bash
-<<<<<<< HEAD
+
 python collector-anonymizer.py an "path/to/your/excel_file.xlsx"
-=======
-python collectoranonymizer.py an "path/to/your/excel_file.xlsx"
->>>>>>> 9b2484f (Initial commit)
+
 ```
 
 This will create a new file named "Inventory_And_Usage_Workbook Anonymized.xlsx" in the current directory.
